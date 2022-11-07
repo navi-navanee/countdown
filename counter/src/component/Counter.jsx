@@ -24,9 +24,11 @@ const Counter = () => {
         count {count}
         {
             <>
+            <h1>Heloooo</h1>
             <button onClick={() => setStart(true)}>Start</button>
             <button onClick={() => setStart(false)}>pause</button>
             <button onClick={() => reset() }>reset</button>
+
             </>
         }
     </div>
